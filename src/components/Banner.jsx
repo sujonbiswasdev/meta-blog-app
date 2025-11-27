@@ -21,16 +21,16 @@ const Banner = () => {
             </ul>
         </div>
         {/* Banner image */}
-        <div className='text-white'>
+        <div className=''>
             <div style={{backgroundImage:`url(banner.jpg)`}} className='md:min-h-[450px] h-80 w-full bg-cover bg-no-repeat rounded-md'>
-                <div className='flex flex-col h-full justify-end '>
+                <div className='flex flex-col h-full justify-end px-4 font-bold'>
                     <span className='bg-purple-700 text-white text-center max-w-36 px-4 py-1 rounded-md mb-3'>Technology</span>
-                    <h2 className='sm:text-3xl text-2xl font-semibold md:w-1/2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
-                    <div className='flex items-center'>
-                        <img src="/mostofa.png" className='h-14 w-auto rounded-ful' alt="" />
-                        <div className='flex flex-wrap items-center space-x-4 -ml-4'>
-                            <span className=' -mt-4 text-base cursor-pointer hover:underline underline-offset-2 '>mostofa ahmed</span>
-                            <span className=' -mt-4 '>january 20,2014</span>
+                    <h2 className='sm:text-3xl text-2xl font-semibold md:w-1/2 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                    <div className='flex items-center text-[#000000]'>
+                        <img src="/mostofa.png" className='h-14 w-auto rounded-full' alt="" />
+                        <div className='flex flex-wrap items-center space-x-2 -mt-3 -ml-4'>
+                            <span className='  text-base cursor-pointer hover:underline underline-offset-2'>mostofa ahmed</span>
+                            <span className='  '>20-November-2025</span>
                         </div>
                     </div>
                 </div>
